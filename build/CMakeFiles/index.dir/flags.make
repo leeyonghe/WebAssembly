@@ -4,7 +4,7 @@
 # compile CXX with /Users/leedev/emsdk/upstream/emscripten/em++
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/main.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/index.dir/includes_CXX.rsp
 
 CXX_FLAGS =   -std=c++14 -std=gnu++14
 
