@@ -1,9 +1,11 @@
 const express = require('express')
 const app = express()
+const path = require("path");
+const ejs = require('ejs');
 const port = 8000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  ejs.renderFile(path.resolve(__dirname,'./index.html'), null, null, (err, str) => !err && res.send(str))
 })
 
 app.listen(port, () => {

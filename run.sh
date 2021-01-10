@@ -1,3 +1,4 @@
+killall -9 node
 rm -rf build
 mkdir build
 # rm -rf public/views
