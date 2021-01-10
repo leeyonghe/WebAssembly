@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "../public/index.html"
+  "../public/index.pdb"
   "CMakeFiles/index.dir/src/main.cpp.o"
-  "index.html"
-  "index.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,6 +4,8 @@ project (index)
 add_definitions(-std=c++14)
 set (CMAKE_CXX_STANDARD 14)
 
+include_directories(include)
+
 # # Boost
 # include_directories (AFTER /usr/local/Cellar/boost/1.75.0_1/)
 # link_directories(/usr/local/Cellar/boost/1.75.0_1/stage-emscripten/lib/)
@@ -18,7 +20,10 @@ set (CMAKE_CXX_STANDARD 14)
 #   endif()
 # endif()
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/public")
+
 include_directories(BEFORE ${CMAKE_CURRENT_LIST_DIR}/src)
+
 file (GLOB_RECURSE SRC_FILES src/*.cpp)
 
 if (DEFINED EMSCRIPTEN)
