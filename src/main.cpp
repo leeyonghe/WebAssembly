@@ -101,6 +101,9 @@ int main(int argc, char** argv) {
   // auto x = std::make_shared<MiniXhr>();
   // x->set_url("notfound.json");
   // x->GET();
+  // printf("this is test");
+
+  std::cout << "ready " << std::endl;
 
   return 0;
 }
