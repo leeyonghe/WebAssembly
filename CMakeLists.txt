@@ -38,7 +38,7 @@ endif(DEFINED EMSCRIPTEN)
 if (DEFINED EMSCRIPTEN)
   set_target_properties(client 
     PROPERTIES SUFFIX ".html"
-    LINK_FLAGS " --bind -s  NO_EXIT_RUNTIME=1 -g4")
+    LINK_FLAGS " --bind -s  NO_EXIT_RUNTIME=1 -g4 --source-map-base http://localhost:8000")
   em_link_js_library(client ${libraryJsFiles})
   # add -O2 to minify
 endif (DEFINED EMSCRIPTEN)
