@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leedev/Desktop/WebAssembly/src/main.cpp" "/Users/leedev/Desktop/WebAssembly/build/CMakeFiles/client.dir/src/main.cpp.o"
+  "/Users/leedev/Desktop/WebAssembly/src/main.cpp" "/Users/leedev/Desktop/WebAssembly/build/CMakeFiles/index.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
