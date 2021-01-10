@@ -144,7 +144,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=index
+CMAKE_PROJECT_NAME:STATIC=main
 
 //Emscripten ranlib
 CMAKE_RANLIB:FILEPATH=/Users/leedev/emsdk/upstream/emscripten/emranlib
@@ -222,10 +222,10 @@ EMSCRIPTEN_FORCE_COMPILERS:BOOL=ON
 EMSCRIPTEN_GENERATE_BITCODE_STATIC_LIBRARIES:BOOL=OFF
 
 //Value Computed by CMake
-index_BINARY_DIR:STATIC=/Users/leedev/Desktop/WebAssembly/build
+main_BINARY_DIR:STATIC=/Users/leedev/Desktop/WebAssembly/build
 
 //Value Computed by CMake
-index_SOURCE_DIR:STATIC=/Users/leedev/Desktop/WebAssembly
+main_SOURCE_DIR:STATIC=/Users/leedev/Desktop/WebAssembly
 
 
 ########################

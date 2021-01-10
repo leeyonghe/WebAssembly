@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project (index)
+project (main)
 
 add_definitions(-std=c++14)
 set (CMAKE_CXX_STANDARD 14)
@@ -27,21 +27,21 @@ include_directories(BEFORE ${CMAKE_CURRENT_LIST_DIR}/src)
 file (GLOB_RECURSE SRC_FILES src/*.cpp)
 
 if (DEFINED EMSCRIPTEN)
-  #add_library(index SHARED ${SRC_FILES})
-  add_executable(index ${SRC_FILES})
+  #add_library(main SHARED ${SRC_FILES})
+  add_executable(main ${SRC_FILES})
 else (DEFINED EMSCRIPTEN)
-  add_executable(index ${SRC_FILES})
+  add_executable(main ${SRC_FILES})
 endif(DEFINED EMSCRIPTEN)
 
-# target_link_libraries(index boost_system)
+# target_link_libraries(main boost_system)
 
 #file (COPY ${CMAKE_CURRENT_LIST_DIR}/Arial DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 if (DEFINED EMSCRIPTEN)
-  set_target_properties(index 
+  set_target_properties(main 
     PROPERTIES SUFFIX ".html"
     LINK_FLAGS " --bind -s  NO_EXIT_RUNTIME=1 -g4 --source-map-base http://localhost:8000")
-  em_link_js_library(index ${libraryJsFiles})
+  em_link_js_library(main ${libraryJsFiles})
   # add -O2 to minify
 endif (DEFINED EMSCRIPTEN)
 

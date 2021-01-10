@@ -1,3 +1,3 @@
 /Users/leedev/Desktop/WebAssembly/build/CMakeFiles/rebuild_cache.dir
 /Users/leedev/Desktop/WebAssembly/build/CMakeFiles/edit_cache.dir
-/Users/leedev/Desktop/WebAssembly/build/CMakeFiles/index.dir
+/Users/leedev/Desktop/WebAssembly/build/CMakeFiles/main.dir
