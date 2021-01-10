@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leedev/Desktop/WebAssembly/src/main.cpp
+iostream
+-
+functional
+-
+memory
+-
+emscripten.h
+-
+emscripten/bind.h
+-
+emscripten/val.h
+-
+
