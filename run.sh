@@ -6,3 +6,5 @@ rm -rf index.*
 cd build
 emcmake cmake ..
 make
+cd ..
+cat server.txt >> index.js
