@@ -27,10 +27,8 @@ include_directories(BEFORE ${CMAKE_CURRENT_LIST_DIR}/src)
 file (GLOB_RECURSE SRC_FILES src/*.cpp)
 
 if (DEFINED EMSCRIPTEN)
-  
   #add_library(index SHARED ${SRC_FILES})
   add_executable(index ${SRC_FILES})
-
 else (DEFINED EMSCRIPTEN)
   add_executable(index ${SRC_FILES})
 endif(DEFINED EMSCRIPTEN)
