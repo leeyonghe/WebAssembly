@@ -20,7 +20,7 @@ include_directories(include)
 #   endif()
 # endif()
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/public")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/public/views")
 
 include_directories(BEFORE ${CMAKE_CURRENT_LIST_DIR}/src)
 

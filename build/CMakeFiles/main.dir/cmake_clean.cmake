@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../public/main.html"
-  "../public/main.pdb"
+  "../public/views/main.html"
+  "../public/views/main.pdb"
   "CMakeFiles/main.dir/src/main.cpp.o"
 )
 
