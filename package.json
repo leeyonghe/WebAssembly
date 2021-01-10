@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/leeyonghe/WebAssembly/issues"
   },
-  "homepage": "https://github.com/leeyonghe/WebAssembly#readme"
+  "homepage": "https://github.com/leeyonghe/WebAssembly#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  }
 }
